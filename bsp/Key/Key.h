@@ -4,9 +4,9 @@
 
 
 /* 定义key的引脚 */
-#define BSP_KEY_RCU      RCU_GPIOA
-#define BSP_KEY_PORT    GPIOA
-#define BSP_KEY_PIN      GPIO_PIN_0
+#define BSP_KEY_RCU         RCU_GPIOA
+#define BSP_KEY_PORT        GPIOA
+#define BSP_KEY_PIN         GPIO_PIN_0
 
 void Key_Init(void);
 

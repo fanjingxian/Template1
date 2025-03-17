@@ -17,7 +17,6 @@ int main(void)
 			OLED_ShowString(0,36,"ABC",24,1);//12*24 “ABC”
 			OLED_Refresh();
     // 
-
     }
 }
 

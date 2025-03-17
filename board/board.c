@@ -1,8 +1,6 @@
 #include <stdint.h>
 #include <board.h>
 
-
-
 static __IO uint32_t g_system_tick = 0;
 
 /*!
