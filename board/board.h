@@ -20,8 +20,12 @@
 #include "gd32f4xx_gpio.h"
 #include "gd32f4xx_usart.h"
 #include "gd32f4xx_adc.h"
+#include "gd32f4xx_rcu.h"
+#include "gd32f4xx_timer.h"
+
 
 #include "soft_timer.h"
+#include "Timer.h"
 #include "buzzer.h"
 #include "OLED.h"
 #include "Key.h"

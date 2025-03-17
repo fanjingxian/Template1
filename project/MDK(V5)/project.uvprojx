@@ -340,7 +340,7 @@
               <MiscControls></MiscControls>
               <Define>USE_STDPERIPH_DRIVER,GD32F470,__TARGET_FPU_VFP</Define>
               <Undefine></Undefine>
-              <IncludePath>..\..\app;..\..\bsp;..\..\libraries\CMSIS\GD\GD32F4xx\Include;..\..\libraries\CMSIS\GD\GD32F4xx;..\..\libraries\GD32F4xx_standard_peripheral\Include;..\..\libraries\CMSIS;..\..\libraries\CMSIS\GD\GD32F4xx\Source\ARM;..\..\board;..\..\module\soft_timer;..\..\module\ringbuffer;..\..\module\buzzer;..\..\bsp\led;..\..\bsp\oled;..\..\bsp\Key</IncludePath>
+              <IncludePath>..\..\app;..\..\bsp;..\..\libraries\CMSIS\GD\GD32F4xx\Include;..\..\libraries\CMSIS\GD\GD32F4xx;..\..\libraries\GD32F4xx_standard_peripheral\Include;..\..\libraries\CMSIS;..\..\libraries\CMSIS\GD\GD32F4xx\Source\ARM;..\..\board;..\..\module\soft_timer;..\..\module\ringbuffer;..\..\module\buzzer;..\..\bsp\led;..\..\bsp\oled;..\..\bsp\Key;..\..\bsp\Timer</IncludePath>
             </VariousControls>
           </Cads>
           <Aads>
@@ -603,6 +603,11 @@
               <FileName>Key.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\bsp\Key\Key.c</FilePath>
+            </File>
+            <File>
+              <FileName>Timer.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\bsp\Timer\Timer.c</FilePath>
             </File>
           </Files>
         </Group>
